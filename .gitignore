@@ -1,0 +1,5 @@
+.idea/
+gpt2-pure/openai-gpt2
+__pycache__
+gpt2-pure/models/__pycache__
+gpt2-pure/__pycache__
