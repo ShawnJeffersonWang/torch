@@ -2,6 +2,7 @@ import torch
 import json
 from models.gpt2 import GPT2
 
+
 def load_gpt2_model(config_json, pytorch_model_bin):
     with open(config_json, 'r') as file:
         config = json.load(file)
@@ -43,6 +44,7 @@ def load_gpt2_model(config_json, pytorch_model_bin):
     model.load_state_dict(new_weights)
     return model
 
+
 def compare_model_parameters(model1, model2):
     # 获取两个模型的状态字典
     sd1 = model1.state_dict()
@@ -69,6 +71,7 @@ def compare_model_parameters(model1, model2):
                 print(f"标准差: {torch.std(diff)}")
     return result
 
+
 def test_model_exact_equivalence(model1, model2, input_ids):
     # 确保两个模型处于评估模式
     model1.eval()
@@ -79,6 +82,7 @@ def test_model_exact_equivalence(model1, model2, input_ids):
     print("output2 shape: ", outputs2.shape)
     # 检查两个输出是否完全相同
     return torch.equal(outputs1, outputs2)
+
 
 from transformers import GPT2LMHeadModel
 
@@ -106,6 +110,3 @@ if __name__ == '__main__':
     # 测试模型是否完全等效
     equivalent = test_model_exact_equivalence(hf_model, gpt2, input_ids)
     print("两个模型输出是否完全等同:", equivalent)
-
-
-

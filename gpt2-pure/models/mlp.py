@@ -1,6 +1,6 @@
 from torch import nn
 import math
-from conv1d import Conv1D
+from .conv1d import Conv1D
 
 
 # 来自transformers库的activations.py中的NewGELUActivation实现

@@ -6,7 +6,7 @@ gpt2 = load_gpt2_model(config_json, pytorch_model_bin)
 
 from transformers import GPT2Tokenizer
 
-text = "hello, how are you?"
+text = "calculate 1+2=? please"
 tokenizer = GPT2Tokenizer.from_pretrained('openai-gpt2')
 encoded_input = tokenizer.encode(text, return_tensors='pt')
 print("input text:", text)

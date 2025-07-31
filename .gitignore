@@ -3,3 +3,8 @@ gpt2-pure/openai-gpt2
 __pycache__
 gpt2-pure/models/__pycache__
 gpt2-pure/__pycache__
+mnist_network/data
+mnist_network/mnist_images
+mnist_network/mnist.pth
+update_mnist_network/mnist_images
+update_mnist_network/mnist_rotate.pth

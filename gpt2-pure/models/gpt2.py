@@ -5,8 +5,8 @@ from torch.nn.init import normal_
 from torch.nn.init import zeros_
 import math
 
-from attention import MultiHeadAttention
-from mlp import MLP
+from .attention import MultiHeadAttention
+from .mlp import MLP
 
 
 class Block(nn.Module):
