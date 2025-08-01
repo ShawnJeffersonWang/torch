@@ -13,3 +13,6 @@ fast_style_trans/data
 fast_style_trans/output
 fast_style_trans/vango.pth
 fast_style_trans/pretrained
+vgg19/data
+vgg19/models
+vgg19/pretrained
