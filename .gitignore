@@ -8,3 +8,8 @@ mnist_network/mnist_images
 mnist_network/mnist.pth
 update_mnist_network/mnist_images
 update_mnist_network/mnist_rotate.pth
+fast_style_trans/__pycache__
+fast_style_trans/data
+fast_style_trans/output
+fast_style_trans/vango.pth
+fast_style_trans/pretrained
