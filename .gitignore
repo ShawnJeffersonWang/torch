@@ -16,3 +16,6 @@ fast_style_trans/pretrained
 vgg19/data
 vgg19/models
 vgg19/pretrained
+simple-yolov8/yolo_v8_n.pth
+simple-yolov8/bus.jpg
+simple-yolov8/bus_detected.jpg
