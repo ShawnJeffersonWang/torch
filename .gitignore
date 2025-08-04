@@ -19,3 +19,7 @@ vgg19/pretrained
 simple-yolov8/yolo_v8_n.pth
 simple-yolov8/bus.jpg
 simple-yolov8/bus_detected.jpg
+simplie-clip/data
+simplie-clip/ViT-B-32.pt
+simplie-clip/cifar100_sample_78_snake.png
+simplie-clip/bpe_simple_vocab_16e6.txt.gz
